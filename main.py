@@ -10,7 +10,7 @@ import logging
 
 def assurelist(obj):
     '''Shortcut wrapper for handling the sometimes None `*_recipients` attributes'''
-    if obj == None:
+    if obj is None:
         return []
     return obj
 
